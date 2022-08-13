@@ -56,3 +56,6 @@
     font-size: 18px;
   }
   
+  input:focus {
+    outline: none;
+  }
