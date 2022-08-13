@@ -1,4 +1,5 @@
 import './App.css';
+import Login from './Components/Login';
 
 const isLoggedIn = false;
 
@@ -21,9 +22,7 @@ const renderConditionally = () => {
 function App() {
   return (
     <div className="container">
-        {
-          renderConditionally()
-        }
+        <Login />
     </div>
   );
 }
