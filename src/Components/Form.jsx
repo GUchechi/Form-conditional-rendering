@@ -5,7 +5,11 @@ function Form({isRegistered}) {
     <form className="form">
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
-      <input type="password" placeholder="Confirm Password" />
+      {isRegistered === false ?  <input type="password" placeholder="Confirm Password" />
+      
+      : null}
+
+     
       <button type="submit">{
         isRegistered ? "Login" : "Register"
       }</button>
