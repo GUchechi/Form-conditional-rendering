@@ -4,6 +4,8 @@ import Form from './Components/Form';
 
 // const isLoggedIn = false;
 
+const isUserRegistered = true;
+
 function App() {
   return (
     <div className="container">
@@ -11,7 +13,9 @@ function App() {
         !isLoggedIn === true ? <Login /> : <h1>Hello</h1>
       } */}
 
-      <Form />
+      <Form
+        isRegistered={isUserRegistered}
+       />
     </div>
   );
 }
