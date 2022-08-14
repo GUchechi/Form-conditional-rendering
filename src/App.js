@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './Components/Form';
 // import Login from './Components/Login';
 
 // const isLoggedIn = false;
@@ -9,6 +10,8 @@ function App() {
       {/* {
         !isLoggedIn === true ? <Login /> : <h1>Hello</h1>
       } */}
+
+      <Form />
     </div>
   );
 }
